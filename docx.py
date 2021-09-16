@@ -27,7 +27,6 @@ try:
 except ImportError:
     TAGS = {}
 
-from exceptions import PendingDeprecationWarning
 from warnings import warn
 
 import logging
